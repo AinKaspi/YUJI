@@ -1,0 +1,29 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# macOS
+.DS_Store# Исключаем папку Pods (CocoaPods)
+Pods/
+
+# Исключаем временные файлы Xcode
+*.xcworkspace
+*.xcodeproj
+DerivedData/
+
+# Исключаем другие большие файлы (например, статические библиотеки)
+*.a
+
+# Исключаем временные файлы macOS
+.DS_Store
+
+# Исключаем пользовательские настройки Xcode
+*.xccheckout
+*.xcuserstate
